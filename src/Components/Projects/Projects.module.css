@@ -1,0 +1,54 @@
+.projects{
+    margin: 100px;
+    padding: 0;
+    font-family: 'es-build-trial', sans-serif;
+    margin-bottom: 250px;
+}
+
+.projects h2{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-left: 70px;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.card{
+    background: #f9f9f9;
+    padding: 50px;
+    padding-top: 5px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 200px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.gitlink{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: black;
+    color: #f9f9f9;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.gitlink:hover{
+    background-color: #f9f9f9;
+    color: black;
+    transition: 0.2s;
+}

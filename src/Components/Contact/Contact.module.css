@@ -1,0 +1,42 @@
+.contact{
+    font-family: 'es-build-trial', sans-serif;
+    margin: 100px;
+    align-items: center;
+}
+
+.contact h2{
+    font-weight: 100;
+    font-size: 28px;
+}
+
+.contact h4{
+    font-weight: 100;
+    font-size: 22px;
+    margin-left: 35%;
+    margin-top: 100px;
+}
+
+.container{
+    padding: 10px;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.btn{
+    width: 900px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 50px;
+    color: black;
+    background-color: #f9f9f9;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: black;
+    color: #f9f9f9;
+    transition: 0.4s;
+}

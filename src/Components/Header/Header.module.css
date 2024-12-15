@@ -1,0 +1,31 @@
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    border-radius: 3px;
+    margin: auto;
+    padding: auto;
+    background-color: black;
+    height:50px;
+}
+
+.header nav ul {
+    display: flex;
+    flex: content;
+    gap: 110px;
+    padding: 10px;
+    align-items: center;
+    margin-left: 58%;
+    margin-top: 0%;
+}
+
+.header nav ul li a {
+    list-style: none;
+    text-decoration: none; 
+    color: white; 
+    font-size: 18px;
+    font-family: 'es-build-trial', sans-serif;
+}
+
+
